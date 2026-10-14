@@ -1,0 +1,109 @@
+{
+  "model": "gated_bigru",
+  "seed": 42,
+  "config": {
+    "model": "gated_bigru",
+    "seed": 42,
+    "epochs": 12,
+    "patience": 4,
+    "batch_size": 32,
+    "hidden": 64,
+    "lr": 0.0005,
+    "text_lr": 1e-05,
+    "text_source": "teacher",
+    "class_mode": "softmax",
+    "class_weight_power": 0.5,
+    "neutral_weight_multiplier": 1.0,
+    "regression_weight": 0.4,
+    "consistency_weight": 0.1,
+    "bridge_dropout": 0.25,
+    "adapter_weight": 0.3,
+    "run_tag": "teacher_bertmask24",
+    "student_checkpoint": "outputs\\checkpoints\\text_student.pt",
+    "fine_tune_text_student": false,
+    "no_missing_augmentation": false,
+    "limit_train": 0,
+    "mask_protocol": "auto",
+    "bert_dir": "outputs\\bert\\bert-base-uncased"
+  },
+  "best_score": 0.5990362539282307,
+  "checkpoint": "outputs\\checkpoints\\gated_bigru_teacher_bertmask24_seed42.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1128606177921323,
+      "clean_macro_f1": 0.5508097424407165,
+      "damaged_macro_f1": 0.5266974951119917,
+      "clean_mae": 0.6519303283491683,
+      "damaged_mae": 0.6602757765548841,
+      "selection_score": 0.5387536187763541,
+      "seconds": 12.46
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9399926629614234,
+      "clean_macro_f1": 0.5764780012171964,
+      "damaged_macro_f1": 0.5447376849510948,
+      "clean_mae": 0.6187119292399774,
+      "damaged_mae": 0.6465427199265712,
+      "selection_score": 0.5606078430841456,
+      "seconds": 10.68
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8753171025038818,
+      "clean_macro_f1": 0.6083803876769068,
+      "damaged_macro_f1": 0.5896921201795545,
+      "clean_mae": 0.6206417316302227,
+      "damaged_mae": 0.6339809349528578,
+      "selection_score": 0.5990362539282307,
+      "seconds": 10.43
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8139272339740804,
+      "clean_macro_f1": 0.5782696333366042,
+      "damaged_macro_f1": 0.5596630552082075,
+      "clean_mae": 0.6491963078026727,
+      "damaged_mae": 0.6578484348147458,
+      "selection_score": 0.5689663442724058,
+      "seconds": 10.82
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.7721363608194556,
+      "clean_macro_f1": 0.6053821275224345,
+      "damaged_macro_f1": 0.5748190086384805,
+      "clean_mae": 0.6258106122163104,
+      "damaged_mae": 0.6348717233283153,
+      "selection_score": 0.5901005680804574,
+      "seconds": 10.43
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7095741080386299,
+      "clean_macro_f1": 0.5829065075305485,
+      "damaged_macro_f1": 0.5778280482262295,
+      "clean_mae": 0.6479468056509926,
+      "damaged_mae": 0.6465586547900994,
+      "selection_score": 0.580367277878389,
+      "seconds": 10.38
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6303042386873833,
+      "clean_macro_f1": 0.5607206985358246,
+      "damaged_macro_f1": 0.5618735556236164,
+      "clean_mae": 0.6249648041221707,
+      "damaged_mae": 0.6299533862131264,
+      "selection_score": 0.5612971270797205,
+      "seconds": 16.67
+    }
+  ],
+  "mask_protocol": "bert_reencoded_20260924",
+  "trainable_params": 163653,
+  "total_params": 4308421,
+  "checkpoint_bytes": 17251940,
+  "gpu_peak_bytes": 618238976,
+  "smoke_only": false
+}

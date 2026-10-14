@@ -1,0 +1,2167 @@
+{
+  "source": "DATA_ROOT\\附件2-数据集特征文件\\aligned_50.pkl",
+  "source_bytes": 993842861,
+  "splits": {
+    "train": {
+      "rows": 3395,
+      "fields": {
+        "raw_text": [
+          3395
+        ],
+        "audio": [
+          3395,
+          50,
+          74
+        ],
+        "vision": [
+          3395,
+          50,
+          35
+        ],
+        "id": [
+          3395
+        ],
+        "text_bert": [
+          3395,
+          3,
+          50
+        ],
+        "classification_labels": [
+          3395
+        ],
+        "regression_labels": [
+          3395
+        ],
+        "text": [
+          3395,
+          50,
+          768
+        ]
+      },
+      "classes": {
+        "2": 1670,
+        "0": 967,
+        "1": 758
+      },
+      "label_sign_mismatches": 0,
+      "unique_ids": 3395,
+      "attention_contiguous": true,
+      "cls_token_101": 3395,
+      "last_attended_sep_102": 3395,
+      "content_length": {
+        "min": 1,
+        "median": 20.0,
+        "max": 48
+      },
+      "audio_nonzero_at_cls": 0,
+      "vision_nonzero_at_cls": 0,
+      "audio_nonzero_at_sep": 0,
+      "vision_nonzero_at_sep": 0,
+      "audio_nonzero_within_content": 76817,
+      "vision_nonzero_within_content": 72633,
+      "content_positions": 76882
+    },
+    "valid": {
+      "rows": 728,
+      "fields": {
+        "raw_text": [
+          728
+        ],
+        "audio": [
+          728,
+          50,
+          74
+        ],
+        "vision": [
+          728,
+          50,
+          35
+        ],
+        "id": [
+          728
+        ],
+        "text_bert": [
+          728,
+          3,
+          50
+        ],
+        "classification_labels": [
+          728
+        ],
+        "regression_labels": [
+          728
+        ],
+        "text": [
+          728,
+          50,
+          768
+        ]
+      },
+      "classes": {
+        "2": 338,
+        "1": 184,
+        "0": 206
+      },
+      "label_sign_mismatches": 0,
+      "unique_ids": 728,
+      "attention_contiguous": true,
+      "cls_token_101": 728,
+      "last_attended_sep_102": 728,
+      "content_length": {
+        "min": 1,
+        "median": 21.5,
+        "max": 48
+      },
+      "audio_nonzero_at_cls": 0,
+      "vision_nonzero_at_cls": 0,
+      "audio_nonzero_at_sep": 0,
+      "vision_nonzero_at_sep": 0,
+      "audio_nonzero_within_content": 17126,
+      "vision_nonzero_within_content": 16192,
+      "content_positions": 17172
+    },
+    "test": {
+      "rows": 727,
+      "fields": {
+        "raw_text": [
+          727
+        ],
+        "audio": [
+          727,
+          50,
+          74
+        ],
+        "vision": [
+          727,
+          50,
+          35
+        ],
+        "id": [
+          727
+        ],
+        "text_bert": [
+          727,
+          3,
+          50
+        ],
+        "classification_labels": [
+          727
+        ],
+        "regression_labels": [
+          727
+        ],
+        "text": [
+          727,
+          50,
+          768
+        ]
+      },
+      "classes": {
+        "2": 362,
+        "0": 207,
+        "1": 158
+      },
+      "label_sign_mismatches": 0,
+      "unique_ids": 727,
+      "attention_contiguous": true,
+      "cls_token_101": 727,
+      "last_attended_sep_102": 727,
+      "content_length": {
+        "min": 2,
+        "median": 21.0,
+        "max": 48
+      },
+      "audio_nonzero_at_cls": 0,
+      "vision_nonzero_at_cls": 0,
+      "audio_nonzero_at_sep": 0,
+      "vision_nonzero_at_sep": 0,
+      "audio_nonzero_within_content": 16855,
+      "vision_nonzero_within_content": 15831,
+      "content_positions": 16855
+    }
+  },
+  "video_id_overlap": {
+    "train_valid": 0,
+    "train_test": 0,
+    "valid_test": 0
+  },
+  "attachment3": [
+    {
+      "file": "附件3_01.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 8,
+      "attention_last_index": 7,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        7
+      ],
+      "audio_nonzero_count": 6,
+      "audio_last_index": 6,
+      "vision_nonzero_count": 6,
+      "vision_last_index": 6,
+      "union_last_index": 7,
+      "content_positions_known": 6,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_02.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 30,
+      "attention_last_index": 29,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        29
+      ],
+      "audio_nonzero_count": 23,
+      "audio_last_index": 28,
+      "vision_nonzero_count": 23,
+      "vision_last_index": 28,
+      "union_last_index": 29,
+      "content_positions_known": 28,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_03.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 34,
+      "attention_last_index": 33,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        33
+      ],
+      "audio_nonzero_count": 27,
+      "audio_last_index": 32,
+      "vision_nonzero_count": 23,
+      "vision_last_index": 32,
+      "union_last_index": 33,
+      "content_positions_known": 32,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_04.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 33,
+      "attention_last_index": 32,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        32
+      ],
+      "audio_nonzero_count": 29,
+      "audio_last_index": 31,
+      "vision_nonzero_count": 29,
+      "vision_last_index": 31,
+      "union_last_index": 32,
+      "content_positions_known": 31,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_05.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 14,
+      "attention_last_index": 13,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        13
+      ],
+      "audio_nonzero_count": 12,
+      "audio_last_index": 12,
+      "vision_nonzero_count": 12,
+      "vision_last_index": 12,
+      "union_last_index": 13,
+      "content_positions_known": 12,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_06.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 27,
+      "attention_last_index": 26,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        26
+      ],
+      "audio_nonzero_count": 22,
+      "audio_last_index": 24,
+      "vision_nonzero_count": 22,
+      "vision_last_index": 24,
+      "union_last_index": 26,
+      "content_positions_known": 25,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_07.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 23,
+      "attention_last_index": 22,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        22
+      ],
+      "audio_nonzero_count": 18,
+      "audio_last_index": 21,
+      "vision_nonzero_count": 18,
+      "vision_last_index": 21,
+      "union_last_index": 22,
+      "content_positions_known": 21,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_08.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 17,
+      "attention_last_index": 16,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        16
+      ],
+      "audio_nonzero_count": 13,
+      "audio_last_index": 15,
+      "vision_nonzero_count": 13,
+      "vision_last_index": 15,
+      "union_last_index": 16,
+      "content_positions_known": 15,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_09.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 16,
+      "attention_last_index": 15,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        15
+      ],
+      "audio_nonzero_count": 12,
+      "audio_last_index": 14,
+      "vision_nonzero_count": 12,
+      "vision_last_index": 14,
+      "union_last_index": 15,
+      "content_positions_known": 14,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_10.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 8,
+      "attention_last_index": 7,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        7
+      ],
+      "audio_nonzero_count": 6,
+      "audio_last_index": 6,
+      "vision_nonzero_count": 6,
+      "vision_last_index": 6,
+      "union_last_index": 7,
+      "content_positions_known": 6,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_11.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 16,
+      "attention_last_index": 15,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        15
+      ],
+      "audio_nonzero_count": 10,
+      "audio_last_index": 13,
+      "vision_nonzero_count": 10,
+      "vision_last_index": 13,
+      "union_last_index": 15,
+      "content_positions_known": 14,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_12.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 15,
+      "attention_last_index": 14,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        14
+      ],
+      "audio_nonzero_count": 11,
+      "audio_last_index": 12,
+      "vision_nonzero_count": 11,
+      "vision_last_index": 12,
+      "union_last_index": 14,
+      "content_positions_known": 13,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_13.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 21,
+      "attention_last_index": 20,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        20
+      ],
+      "audio_nonzero_count": 17,
+      "audio_last_index": 19,
+      "vision_nonzero_count": 17,
+      "vision_last_index": 19,
+      "union_last_index": 20,
+      "content_positions_known": 19,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_14.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 25,
+      "attention_last_index": 24,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        24
+      ],
+      "audio_nonzero_count": 21,
+      "audio_last_index": 23,
+      "vision_nonzero_count": 21,
+      "vision_last_index": 23,
+      "union_last_index": 24,
+      "content_positions_known": 23,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_15.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 29,
+      "attention_last_index": 28,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        28
+      ],
+      "audio_nonzero_count": 24,
+      "audio_last_index": 27,
+      "vision_nonzero_count": 24,
+      "vision_last_index": 27,
+      "union_last_index": 28,
+      "content_positions_known": 27,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_16.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 36,
+      "attention_last_index": 35,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        35
+      ],
+      "audio_nonzero_count": 30,
+      "audio_last_index": 34,
+      "vision_nonzero_count": 30,
+      "vision_last_index": 34,
+      "union_last_index": 35,
+      "content_positions_known": 34,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_17.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 24,
+      "attention_last_index": 23,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        23
+      ],
+      "audio_nonzero_count": 14,
+      "audio_last_index": 22,
+      "vision_nonzero_count": 14,
+      "vision_last_index": 22,
+      "union_last_index": 23,
+      "content_positions_known": 22,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_18.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 19,
+      "attention_last_index": 18,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        18
+      ],
+      "audio_nonzero_count": 14,
+      "audio_last_index": 17,
+      "vision_nonzero_count": 14,
+      "vision_last_index": 17,
+      "union_last_index": 18,
+      "content_positions_known": 17,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_19.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 26,
+      "attention_last_index": 25,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        25
+      ],
+      "audio_nonzero_count": 17,
+      "audio_last_index": 24,
+      "vision_nonzero_count": 17,
+      "vision_last_index": 24,
+      "union_last_index": 25,
+      "content_positions_known": 24,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_20.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 50,
+      "attention_last_index": 49,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        49
+      ],
+      "audio_nonzero_count": 34,
+      "audio_last_index": 47,
+      "vision_nonzero_count": 34,
+      "vision_last_index": 47,
+      "union_last_index": 49,
+      "content_positions_known": 48,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_21.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 11,
+      "attention_last_index": 10,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        10
+      ],
+      "audio_nonzero_count": 6,
+      "audio_last_index": 9,
+      "vision_nonzero_count": 6,
+      "vision_last_index": 9,
+      "union_last_index": 10,
+      "content_positions_known": 9,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_22.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 19,
+      "attention_last_index": 18,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        18
+      ],
+      "audio_nonzero_count": 13,
+      "audio_last_index": 17,
+      "vision_nonzero_count": 13,
+      "vision_last_index": 17,
+      "union_last_index": 18,
+      "content_positions_known": 17,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_23.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 15,
+      "attention_last_index": 14,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        14
+      ],
+      "audio_nonzero_count": 9,
+      "audio_last_index": 13,
+      "vision_nonzero_count": 9,
+      "vision_last_index": 13,
+      "union_last_index": 14,
+      "content_positions_known": 13,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_24.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 10,
+      "attention_last_index": 9,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        9
+      ],
+      "audio_nonzero_count": 6,
+      "audio_last_index": 8,
+      "vision_nonzero_count": 6,
+      "vision_last_index": 8,
+      "union_last_index": 9,
+      "content_positions_known": 8,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_25.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 11,
+      "attention_last_index": 10,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        10
+      ],
+      "audio_nonzero_count": 7,
+      "audio_last_index": 9,
+      "vision_nonzero_count": 7,
+      "vision_last_index": 9,
+      "union_last_index": 10,
+      "content_positions_known": 9,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_26.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 24,
+      "attention_last_index": 23,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        23
+      ],
+      "audio_nonzero_count": 16,
+      "audio_last_index": 21,
+      "vision_nonzero_count": 16,
+      "vision_last_index": 21,
+      "union_last_index": 23,
+      "content_positions_known": 22,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_27.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 23,
+      "attention_last_index": 22,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        22
+      ],
+      "audio_nonzero_count": 13,
+      "audio_last_index": 19,
+      "vision_nonzero_count": 13,
+      "vision_last_index": 19,
+      "union_last_index": 22,
+      "content_positions_known": 21,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_28.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 35,
+      "attention_last_index": 34,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        34
+      ],
+      "audio_nonzero_count": 22,
+      "audio_last_index": 33,
+      "vision_nonzero_count": 22,
+      "vision_last_index": 33,
+      "union_last_index": 34,
+      "content_positions_known": 33,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_29.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 20,
+      "attention_last_index": 19,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        19
+      ],
+      "audio_nonzero_count": 10,
+      "audio_last_index": 16,
+      "vision_nonzero_count": 10,
+      "vision_last_index": 16,
+      "union_last_index": 19,
+      "content_positions_known": 18,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "附件3_30.pkl",
+      "attachment": "attachment3",
+      "fields": {
+        "text_bert": [
+          1,
+          3,
+          50
+        ],
+        "vision": [
+          1,
+          50,
+          35
+        ],
+        "audio": [
+          1,
+          50,
+          74
+        ]
+      },
+      "attention_count": 26,
+      "attention_last_index": 25,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        25
+      ],
+      "audio_nonzero_count": 12,
+      "audio_last_index": 24,
+      "vision_nonzero_count": 12,
+      "vision_last_index": 24,
+      "union_last_index": 25,
+      "content_positions_known": 24,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    }
+  ],
+  "attachment4": [
+    {
+      "file": "01.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 24,
+      "attention_last_index": 23,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        23
+      ],
+      "audio_nonzero_count": 22,
+      "audio_last_index": 22,
+      "vision_nonzero_count": 22,
+      "vision_last_index": 22,
+      "union_last_index": 23,
+      "content_positions_known": 22,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "02.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 21,
+      "attention_last_index": 20,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        20
+      ],
+      "audio_nonzero_count": 19,
+      "audio_last_index": 19,
+      "vision_nonzero_count": 19,
+      "vision_last_index": 19,
+      "union_last_index": 20,
+      "content_positions_known": 19,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "03.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 35,
+      "attention_last_index": 34,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        34
+      ],
+      "audio_nonzero_count": 33,
+      "audio_last_index": 33,
+      "vision_nonzero_count": 33,
+      "vision_last_index": 33,
+      "union_last_index": 34,
+      "content_positions_known": 33,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "04.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 28,
+      "attention_last_index": 27,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        27
+      ],
+      "audio_nonzero_count": 26,
+      "audio_last_index": 26,
+      "vision_nonzero_count": 26,
+      "vision_last_index": 26,
+      "union_last_index": 27,
+      "content_positions_known": 26,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "05.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 17,
+      "attention_last_index": 16,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        16
+      ],
+      "audio_nonzero_count": 15,
+      "audio_last_index": 15,
+      "vision_nonzero_count": 15,
+      "vision_last_index": 15,
+      "union_last_index": 16,
+      "content_positions_known": 15,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "06.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 37,
+      "attention_last_index": 36,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        36
+      ],
+      "audio_nonzero_count": 35,
+      "audio_last_index": 35,
+      "vision_nonzero_count": 35,
+      "vision_last_index": 35,
+      "union_last_index": 36,
+      "content_positions_known": 35,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "07.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 50,
+      "attention_last_index": 49,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        49
+      ],
+      "audio_nonzero_count": 48,
+      "audio_last_index": 48,
+      "vision_nonzero_count": 48,
+      "vision_last_index": 48,
+      "union_last_index": 49,
+      "content_positions_known": 48,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "08.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 13,
+      "attention_last_index": 12,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        12
+      ],
+      "audio_nonzero_count": 11,
+      "audio_last_index": 11,
+      "vision_nonzero_count": 11,
+      "vision_last_index": 11,
+      "union_last_index": 12,
+      "content_positions_known": 11,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "09.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 20,
+      "attention_last_index": 19,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        19
+      ],
+      "audio_nonzero_count": 18,
+      "audio_last_index": 18,
+      "vision_nonzero_count": 18,
+      "vision_last_index": 18,
+      "union_last_index": 19,
+      "content_positions_known": 18,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "10.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 32,
+      "attention_last_index": 31,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        31
+      ],
+      "audio_nonzero_count": 30,
+      "audio_last_index": 30,
+      "vision_nonzero_count": 30,
+      "vision_last_index": 30,
+      "union_last_index": 31,
+      "content_positions_known": 30,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "11.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 16,
+      "attention_last_index": 15,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        15
+      ],
+      "audio_nonzero_count": 14,
+      "audio_last_index": 14,
+      "vision_nonzero_count": 14,
+      "vision_last_index": 14,
+      "union_last_index": 15,
+      "content_positions_known": 14,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "12.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 44,
+      "attention_last_index": 43,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        43
+      ],
+      "audio_nonzero_count": 42,
+      "audio_last_index": 42,
+      "vision_nonzero_count": 42,
+      "vision_last_index": 42,
+      "union_last_index": 43,
+      "content_positions_known": 42,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "13.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 32,
+      "attention_last_index": 31,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        31
+      ],
+      "audio_nonzero_count": 30,
+      "audio_last_index": 30,
+      "vision_nonzero_count": 0,
+      "vision_last_index": null,
+      "union_last_index": 31,
+      "content_positions_known": 30,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "14.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 37,
+      "attention_last_index": 36,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        36
+      ],
+      "audio_nonzero_count": 35,
+      "audio_last_index": 35,
+      "vision_nonzero_count": 35,
+      "vision_last_index": 35,
+      "union_last_index": 36,
+      "content_positions_known": 35,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "15.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 23,
+      "attention_last_index": 22,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        22
+      ],
+      "audio_nonzero_count": 21,
+      "audio_last_index": 21,
+      "vision_nonzero_count": 21,
+      "vision_last_index": 21,
+      "union_last_index": 22,
+      "content_positions_known": 21,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "16.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 13,
+      "attention_last_index": 12,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        12
+      ],
+      "audio_nonzero_count": 11,
+      "audio_last_index": 11,
+      "vision_nonzero_count": 11,
+      "vision_last_index": 11,
+      "union_last_index": 12,
+      "content_positions_known": 11,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "17.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 26,
+      "attention_last_index": 25,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        25
+      ],
+      "audio_nonzero_count": 24,
+      "audio_last_index": 24,
+      "vision_nonzero_count": 24,
+      "vision_last_index": 24,
+      "union_last_index": 25,
+      "content_positions_known": 24,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "18.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 50,
+      "attention_last_index": 49,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        49
+      ],
+      "audio_nonzero_count": 48,
+      "audio_last_index": 48,
+      "vision_nonzero_count": 48,
+      "vision_last_index": 48,
+      "union_last_index": 49,
+      "content_positions_known": 48,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "19.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 41,
+      "attention_last_index": 40,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        40
+      ],
+      "audio_nonzero_count": 39,
+      "audio_last_index": 39,
+      "vision_nonzero_count": 39,
+      "vision_last_index": 39,
+      "union_last_index": 40,
+      "content_positions_known": 39,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    },
+    {
+      "file": "20.pkl",
+      "attachment": "attachment4",
+      "fields": {
+        "raw_text": [],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ],
+        "id": [],
+        "text": [
+          50,
+          768
+        ],
+        "text_bert": [
+          3,
+          50
+        ]
+      },
+      "attention_count": 45,
+      "attention_last_index": 44,
+      "attention_internal_reappearances": 0,
+      "sep_positions": [
+        44
+      ],
+      "audio_nonzero_count": 43,
+      "audio_last_index": 43,
+      "vision_nonzero_count": 43,
+      "vision_last_index": 43,
+      "union_last_index": 44,
+      "content_positions_known": 43,
+      "av_after_last_text_attention": false,
+      "tail_boundary_uncertain": false
+    }
+  ],
+  "attachment3_tail_uncertain_count": 0,
+  "prior_validation": {
+    "selected_model": "gated_bigru",
+    "selected_seed": 44,
+    "selected_checkpoint_exists": true,
+    "student_gated_bigru": {
+      "valid_clean_macro_f1": {
+        "mean": 0.5006861353324074,
+        "std": 0.00338289234324038
+      },
+      "valid_robust_macro_f1": {
+        "mean": 0.475560525428876,
+        "std": 0.0036936799040149324
+      },
+      "valid_clean_mae": {
+        "mean": 0.7203586737748112,
+        "std": 0.002864798949768527
+      },
+      "valid_robust_mae": {
+        "mean": 0.7322265364958079,
+        "std": 0.0030793385616316375
+      },
+      "selection_score": {
+        "mean": 0.48812333038064165,
+        "std": 0.0024656278906692117
+      }
+    },
+    "run_provenance": {
+      "gated_bigru": [
+        {
+          "seed": 42,
+          "log_exists": true,
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 17087652,
+          "best_score": 0.4946849974148212,
+          "config": {
+            "model": "gated_bigru",
+            "seed": 42,
+            "epochs": 12,
+            "patience": 4,
+            "batch_size": 32,
+            "hidden": 64,
+            "lr": 0.0005,
+            "limit_train": 0
+          },
+          "history_epochs": 9
+        },
+        {
+          "seed": 43,
+          "log_exists": true,
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 17087652,
+          "best_score": 0.4860599424038117,
+          "config": {
+            "model": "gated_bigru",
+            "seed": 43,
+            "epochs": 12,
+            "patience": 4,
+            "batch_size": 32,
+            "hidden": 64,
+            "lr": 0.0005,
+            "limit_train": 0
+          },
+          "history_epochs": 9
+        },
+        {
+          "seed": 44,
+          "log_exists": true,
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 17087652,
+          "best_score": 0.48520519747228386,
+          "config": {
+            "model": "gated_bigru",
+            "seed": 44,
+            "epochs": 12,
+            "patience": 4,
+            "batch_size": 32,
+            "hidden": 64,
+            "lr": 0.0005,
+            "limit_train": 0
+          },
+          "history_epochs": 9
+        }
+      ],
+      "gated_bigru_teacher": [
+        {
+          "seed": 42,
+          "log_exists": true,
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 17251556,
+          "best_score": 0.5831879210366497,
+          "config": {
+            "model": "gated_bigru",
+            "seed": 42,
+            "epochs": 12,
+            "patience": 4,
+            "batch_size": 32,
+            "hidden": 64,
+            "lr": 0.0005,
+            "text_source": "teacher",
+            "class_weight_power": 0.5,
+            "regression_weight": 0.4,
+            "consistency_weight": 0.1,
+            "run_tag": "teacher",
+            "limit_train": 0
+          },
+          "history_epochs": 7
+        },
+        {
+          "seed": 43,
+          "log_exists": true,
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 17251556,
+          "best_score": 0.6045326264685296,
+          "config": {
+            "model": "gated_bigru",
+            "seed": 43,
+            "epochs": 12,
+            "patience": 4,
+            "batch_size": 32,
+            "hidden": 64,
+            "lr": 0.0005,
+            "text_source": "teacher",
+            "class_weight_power": 0.5,
+            "regression_weight": 0.4,
+            "consistency_weight": 0.1,
+            "run_tag": "teacher",
+            "limit_train": 0
+          },
+          "history_epochs": 7
+        },
+        {
+          "seed": 44,
+          "log_exists": true,
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 17251620,
+          "best_score": 0.5919545633485649,
+          "config": {
+            "model": "gated_bigru",
+            "seed": 44,
+            "epochs": 12,
+            "patience": 4,
+            "batch_size": 32,
+            "hidden": 64,
+            "lr": 0.0005,
+            "text_source": "teacher",
+            "class_weight_power": 0.5,
+            "regression_weight": 0.4,
+            "consistency_weight": 0.1,
+            "run_tag": "teacher",
+            "fine_tune_text_student": false,
+            "no_missing_augmentation": false,
+            "limit_train": 0
+          },
+          "history_epochs": 5
+        }
+      ]
+    }
+  },
+  "problem1_existing_files": {
+    "features_100.npz": true,
+    "coverage_100.csv": true,
+    "time_map.jsonl": true,
+    "manual_review_21.xlsx": true
+  }
+}

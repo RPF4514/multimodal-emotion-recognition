@@ -1,0 +1,7 @@
+model: gated_bigru
+hidden: 64
+batch_size: 32
+epochs: 12
+patience: 4
+learning_rate: 0.0005
+seeds: [42, 43, 44]

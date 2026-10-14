@@ -1,0 +1,10 @@
+实际实验环境
+Python 3.10.20
+PyTorch 2.6.0+cu124 / CUDA 12.4
+NumPy 2.2.6 / pandas 2.3.3 / PyYAML 6.0.3
+Matplotlib 3.10.9 / OpenCV 5.0.0.93
+faster-whisper 1.2.1 / tokenizers 0.23.2
+GPU: NVIDIA RTX 3060 Laptop GPU
+FFmpeg需安装并加入PATH；CPU可运行推理但较慢。
+依赖安装：按PyTorch官方对应平台安装2.6.0，再 pip install -r requirements.txt。
+requirements记录最低复现依赖；以上为已实际运行的版本。

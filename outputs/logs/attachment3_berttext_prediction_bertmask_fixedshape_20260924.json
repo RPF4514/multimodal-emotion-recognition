@@ -1,0 +1,12 @@
+{
+  "rows": 30,
+  "csv": "outputs\\predictions\\attachment3_predictions_berttext_bertmask_fixedshape_20260924.csv",
+  "canonical_csv": null,
+  "attachment4_control": {
+    "checked": 20,
+    "label_mismatch": 0,
+    "strength_max_abs_diff": 7.748603820800781e-07
+  },
+  "attachment3_label_changes_vs_student_text_path": 14,
+  "text_feature_source": "frozen bert-base-uncased on text_bert"
+}

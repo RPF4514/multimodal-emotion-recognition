@@ -1,0 +1,14 @@
+{
+  "attachment3_original_rows": 30,
+  "attachment3_reproduced_rows": 30,
+  "attachment3_exact_except_order": true,
+  "attachment3_differences": {},
+  "attachment4_original_rows": 20,
+  "attachment4_reproduced_rows": 20,
+  "attachment4_equal_except_image_path": true,
+  "attachment4_differences": {},
+  "attachment4_detail_equal_except_image_path": true,
+  "attachment4_detail_differences": {},
+  "attachment4_image_status_match": true,
+  "attachment4_text_flags_true": 20
+}

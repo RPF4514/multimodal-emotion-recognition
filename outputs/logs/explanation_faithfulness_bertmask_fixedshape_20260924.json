@@ -1,0 +1,7 @@
+{
+  "top_window_mean_probability_drop": 0.2014211356639862,
+  "bottom_window_mean_probability_drop": -0.0539524182677269,
+  "top_minus_bottom": 0.2553735539317131,
+  "sample_count": 20,
+  "note": "Post-hoc comparison on selected windows; not a causal claim or held-out explanation test."
+}

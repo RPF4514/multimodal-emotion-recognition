@@ -1,0 +1,57 @@
+{
+  "q1_sample_count": 100,
+  "q1_feature_shapes": {
+    "text": [
+      100,
+      50,
+      32
+    ],
+    "audio": [
+      100,
+      50,
+      74
+    ],
+    "vision": [
+      100,
+      50,
+      35
+    ]
+  },
+  "attachment3_rows": 30,
+  "attachment3_classes": {
+    "Negative": 7,
+    "Neutral": 10,
+    "Positive": 13
+  },
+  "attachment4_rows": 20,
+  "attachment4_classes": {
+    "Neutral": 5,
+    "Negative": 8,
+    "Positive": 7
+  },
+  "attachment4_text_match": 20,
+  "identity_scan_hits": [],
+  "source_python_syntax": "pass",
+  "tensor_values_preserved": true,
+  "test_report_included": true,
+  "training_or_test_evaluation_rerun": false,
+  "current_package_tests": {
+    "unittest_passed": 9,
+    "cpu_forward": "passed",
+    "fully_missing_weights_zero": true,
+    "source_imported_from_packaged_directory": true,
+    "full_real_data_rerun": "not_completed_official_data_directory_absent",
+    "historical_reproduction_record": "outputs/logs/reproduction_comparison_conda_clone_20260924.json",
+    "public_bert_checker": "passed_with_packaged_config_and_external_public_weights",
+    "locked_checkpoint_guard": "passed",
+    "corrupt_checkpoint_guard": "rejects_corrupt_input",
+    "cpu_frozen_bert_and_predictor_smoke": "passed_with_synthetic_token_input_not_a_performance_evaluation"
+  },
+  "repair_date": "2026-09-29",
+  "preserved_after_repair": {
+    "checkpoint_file_bytes": "unchanged",
+    "prediction_csv_bytes": "unchanged",
+    "experiment_logs": "unchanged",
+    "official_data": "not_accessed"
+  }
+}

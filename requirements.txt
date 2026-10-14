@@ -1,0 +1,9 @@
+# Tested with Python 3.10; see ENVIRONMENT.txt
+torch==2.6.0
+numpy==2.2.6
+pandas
+PyYAML
+matplotlib
+opencv-python
+faster-whisper==1.2.1
+tokenizers==0.23.2

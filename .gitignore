@@ -1,0 +1,41 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Credentials and local editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+
+# Official datasets and generated binary assets belong outside Git history
+data/
+datasets/
+E题数据/
+*.pkl
+*.pickle
+*.mp4
+*.wav
+*.pt
+*.pth
+*.bin
+outputs/checkpoints/
+outputs/problem1/
+outputs/figures/
+
+# Downloaded archives and operating-system files
+*.zip
+*.rar
+*.7z
+*.log
+.DS_Store
+Thumbs.db
+~$*

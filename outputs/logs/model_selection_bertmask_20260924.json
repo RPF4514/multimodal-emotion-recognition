@@ -1,0 +1,16 @@
+{
+  "selected_group": "retrained_teacher",
+  "selected_checkpoint": "outputs/checkpoints/gated_bigru_teacher_bertmask24_seed43.pt",
+  "selected_seed": 43,
+  "text_source": "teacher",
+  "mask_protocol": "bert_reencoded_20260924",
+  "eligibility": {
+    "retrained_bridge": false,
+    "retrained_teacher": true
+  },
+  "selection_rule": "mean aggregate F1 >= baseline +0.01, positive video-cluster paired CI, both MAE deltas <=0.01, each checkpoint <=50MiB; otherwise retain baseline",
+  "validation_report": "outputs/logs/bertmask_validation_20260924.json",
+  "test_evaluated": false,
+  "test_evaluated_as_of_packaging": true,
+  "subsequent_test_report": "outputs/logs/final_test_bertmask_seed43_20260925.json"
+}

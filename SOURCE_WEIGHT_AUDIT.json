@@ -1,0 +1,14 @@
+[
+  {
+    "file": "gated_bigru_teacher_bertmask24_seed43.pt",
+    "source_sha256": "ba797d854a2731971fabe10fc2efe13df42b0b15eff3c92be4f0344aae0660f7",
+    "packaged_sha256": "e221cc9ed889bc5af1e311ce19a793b9c5f0dce0b2a1132416363f6b8dbeb167",
+    "change": "Only identifying/absolute-path string metadata sanitized; tensor values unchanged."
+  },
+  {
+    "file": "text_student.pt",
+    "source_sha256": "f7d7fbf072a3baaa9fe2b1bf69b8a5895aa82e992fcd4891b33dab6dc52b2b51",
+    "packaged_sha256": "778c7a01f6b1377304b524f3ecc2bff7099c69379d70b171dd0efe8b5b6f05ab",
+    "change": "Only identifying/absolute-path string metadata sanitized; tensor values unchanged."
+  }
+]
