@@ -33,6 +33,7 @@ outputs/figures/
 
 # Downloaded archives and operating-system files
 *.zip
+!/artifacts/runtime-assets-v1.0.0.zip
 *.rar
 *.7z
 *.log

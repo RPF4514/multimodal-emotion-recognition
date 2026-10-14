@@ -19,9 +19,10 @@ outputs/predictions/   附件3的30条预测、附件4的20条预测解释
 outputs/bert/          BERT配置与词表；公开权重通过脚本获取
 outputs/normalizer.npz 训练集拟合的标准化参数
 docs/                  原提交复现说明、来源清单、打包检查与结果摘要
+artifacts/             固定版本运行材料ZIP，包含自训权重和派生结果
 ```
 
-运行所需的自训检查点、问题一特征与时间映射、人工审计表、解释关键帧在单独的 `runtime-assets-v1.0.0.zip` 中。上传 GitHub 后，把此ZIP挂到同一仓库的 Release，下载者将ZIP内的 `outputs/` 合并至仓库根目录即可恢复既有输入路径。ZIP内的 `ASSET_MANIFEST.json` 给出逐文件SHA-256；不要把整个ZIP解压到 `outputs/` 内。
+运行所需的自训检查点、问题一特征与时间映射、人工审计表、解释关键帧在 [artifacts/runtime-assets-v1.0.0.zip](artifacts/runtime-assets-v1.0.0.zip) 中，约34.88MB。这个固定版本归档直接保存在同一私有仓库，克隆仓库或下载整库ZIP即可一并获得。将运行包内的 `outputs/` 合并至仓库根目录即可恢复既有输入路径。ZIP内的 `ASSET_MANIFEST.json` 给出逐文件SHA-256；不要把整个ZIP解压到 `outputs/` 内。材料清单和整包校验值见 [docs/RUNTIME_ASSETS.md](docs/RUNTIME_ASSETS.md)。
 
 ## 已有结果
 
@@ -37,7 +38,8 @@ docs/                  原提交复现说明、来源清单、打包检查与结
 # 在仓库根目录执行；按PyTorch官方安装适合本机的2.6.0版本
 python -m pip install -r requirements.txt
 
-# 先解压runtime-assets-v1.0.0.zip，将其中outputs合并进仓库根目录
+# 将运行包的outputs合并进仓库根目录
+Expand-Archive -LiteralPath '.\artifacts\runtime-assets-v1.0.0.zip' -DestinationPath '.'
 # 设置实际赛题数据路径
 $env:MM_EMOTION_DATA_ROOT = 'D:\赛题数据\E题数据'
 
